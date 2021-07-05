@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # 3thr party
-    'django_nose',
+    # 'django_nose',
 
     # local
     'blog',
@@ -147,10 +147,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # setup for testing with nose
 # Use nose to run all tests
-TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
+# TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
 
 # Tell nose to measure coverage on the 'foo' and 'bar' apps
-NOSE_ARGS = [
-    '--with-coverage',
-    '--cover-package=blog',
-]
+# NOSE_ARGS = [
+#     '--with-coverage',
+#     '--cover-package=blog',
+# ]
