@@ -89,18 +89,36 @@ DATABASES = {
 
         'ENGINE': 'django.db.backends.postgresql',
 
-        'NAME': 'newsletterDB',
+        'NAME': 'df3t7jtdhi0ric',
 
-        'USER': 'postgres',
+        'USER': 'irgdepsqukdxak',
 
-        'PASSWORD': '1234',
+        'PASSWORD': 'f5d7e219b7a24a6da8d3fdc113bfade828cac947531582d39094bd0fb787a3b1',
 
-        'HOST': '127.0.0.1',
+        'HOST': 'ec2-35-168-145-180.compute-1.amazonaws.com',
 
         'PORT': '5432',
 
     }
 }
+# DATABASES = {
+
+#     'default': {
+
+#         'ENGINE': 'django.db.backends.postgresql',
+
+#         'NAME': 'newsletterDB',
+
+#         'USER': 'postgres',
+
+#         'PASSWORD': '1234',
+
+#         'HOST': '127.0.0.1',
+
+#         'PORT': '5432',
+
+#     }
+# }
 
 
 # Password validation
